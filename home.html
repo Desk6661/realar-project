@@ -15,15 +15,15 @@
 
 <body>
     <nav class="navbar nav navbar-expand-lg">
-        <div class="container d-flex justify-content-between nav-ul b-red">
+        <div class="container nav-res d-flex justify-content-between nav-ul b-red">
             <a class="navbar-brand text-light b-red" href="#"><img src="images/logo.svg" alt=""></a>
             <button class="navbar-toggler" type="button" data-bs-toggle="collapse"
                 data-bs-target="#navbarSupportedContent" aria-controls="navbarSupportedContent" aria-expanded="false"
                 aria-label="Toggle navigation">
                 <span class="navbar-toggler-icon"></span>
             </button>
-            <div class="collapse navbar-collapse nav-ul b-red d-flex align-items-center" id="navbarSupportedContent">
-                <ul class="navbar-nav nav-ul m-auto b-blue gap-4 d-flex align-items-center">
+            <div class="collapse navbar-collapse nav-div-collapse nav-ul b-red d-flex align-items-center" id="navbarSupportedContent">
+                <ul class="navbar-nav nav-ul nav-ul-collapse m-auto b-blue gap-4 d-flex align-items-center">
                     <li class="nav-item">
                         <a class="nav-link nav-ul dropdown-main nav-a" href="#">Home <i
                                 class="fa-solid fa-caret-down"></i>
@@ -80,67 +80,127 @@
                         <a class="nav-link nav-ul nav-a" href="#">Contact Us</a>
                     </li>
                 </ul>
-                <form class="d-flex  b-red" role="search">
-                    <button class="btn-yellow" type="submit">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
-                </form>
+                
             </div>
+            <form class="d-flex  b-red" role="search">
+                <button class="btn-yellow" type="submit">Contact Us <i class="fa-solid fa-arrow-right"></i></button>
+            </form>
         </div>
     </nav>
 
     <div class="container-fluid" style="background-color: rgba(28,45,55,255);">
-        <div class="container">
-            <div id="carouselExampleCaptions" class="carousel slide">
-                <div class="carousel-indicators">
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active"
-                        aria-current="true" aria-label="Slide 1"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1"
-                        aria-label="Slide 2"></button>
-                    <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2"
-                        aria-label="Slide 3"></button>
+        <div class="home-page mx-auto mt-5 col-10">
+            <div class="row home-page-row">
+                <div class="col-md-7 left position-relative">
+                    <h1 class="text-white display-l position-absolute left-1" style="font-size: 50px; font-weight: 600;">
+                        TOP NOTCH LIVING SPACE
+                    </h1>
+                    <p class="left-1 position-absolute">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Veniam ad dignissimos optio sunt, totam quod sed laborum aut suscipit asperiores.</p>
+                    <button class="btn-yellow left-1 position-absolute">Explore properties <i class="fa-solid fa-arrow-right"></i></button>
+                    <h1 class="text-white display-l position-absolute left-2" style="font-size: 50px; font-weight: 600;">
+                        DISCOVER YOUR FLEXIBLE LIVING HOUSE
+                    </h1>
+                    <p class="left-2 position-absolute">Lorem, ipsum dolor sit amet consectetur adipisicing elit. Molestias, enim temporibus error odit ipsam delectus perferendis quae aspernatur dolor et!</p>
+                    <button class="btn-yellow left-2 position-absolute">Explore properties <i class="fa-solid fa-arrow-right"></i></button>
+                    <h1 class="text-white display-l position-absolute left-3" style="font-size: 50px; font-weight: 600;">
+                        ELEVATE LIFESTYLE LUXURY MEETS COMFORTS
+                    </h1>
+                    <p class="left-3 position-absolute">Lorem ipsum, dolor sit amet consectetur adipisicing elit. Quas quam laborum expedita necessitatibus laudantium, labore iste voluptatibus dignissimos architecto nulla.</p>
+                    <button class="btn-yellow left-3 position-absolute">Explore properties <i class="fa-solid fa-arrow-right"></i></button>
                 </div>
-                <div class="carousel-inner">
-                    <div class="carousel-item active">
-                        <img src="images/about_1_1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>First slide label</h5>
-                            <p>Some representative placeholder content for the first slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/about_1_2.png" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Second slide label</h5>
-                            <p>Some representative placeholder content for the second slide.</p>
-                        </div>
-                    </div>
-                    <div class="carousel-item">
-                        <img src="images/about_1_1.jpg" class="d-block w-100" alt="...">
-                        <div class="carousel-caption d-none d-md-block">
-                            <h5>Third slide label</h5>
-                            <p>Some representative placeholder content for the third slide.</p>
-                        </div>
-                    </div>
+                <div class="col-md-5 right">
+                    <span class="play rounded-cicle d-flex align-items-center justify-content-center position-relative">
+                        <i class="fa-solid fa-play"></i>
+                        <span style="width: 100%; height: 100%; border-radius: 50%; top: 0; left: 0; border: 2px solid white" class="position-absolute play-anime"></span>
+                        <span style="width: 100%; height: 100%; border-radius: 50%; top: 0; left: 0; border: 2px solid white" class="position-absolute play-anime"></span>
+                    </span>
                 </div>
-                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="prev">
-                    <span class="carousel-control-prev-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Previous</span>
-                </button>
-                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"
-                    data-bs-slide="next">
-                    <span class="carousel-control-next-icon" aria-hidden="true"></span>
-                    <span class="visually-hidden">Next</span>
-                </button>
+            </div>
+        </div>
+    </div>
+
+    <div class="row">
+        <div class="col-12 col-md-3 h-200 first-section-sub d-flex flex-column align-items-center justify-content-center">
+            <h1>850+</h1>
+            <p>ELEGANT APARTMENTS</p>
+        </div>
+        <div class="col-12 col-md-3 h-200 first-section-sub d-flex flex-column align-items-center justify-content-center">
+            <h1>950+</h1>
+            <p>LUXURY HOUSES</p>
+        </div>
+        <div class="col-12 col-md-3 h-200 first-section-sub d-flex flex-column align-items-center justify-content-center">
+            <h1>18k+</h1>
+            <p>SATISFIED GUESTS</p>
+        </div>
+        <div class="col-12 col-md-3 h-200 first-section-sub d-flex flex-column align-items-center justify-content-center">
+            <h1>2k+</h1>
+            <p>HAPPY OWNERS</p> 
+        </div>
+    </div>
+
+    <div class="container-fluid second-section">
+        <div class="row mx-3 h-200 b-red">
+            <div class="col-12 col-md-6 d-flex flex-column justify-content-center b-blue">
+                <h1 class="text-light">About Us</h1>
+                <p class="text-light">We are a real estate firm with over 20 years of expertise, and our main goal is to provide amazing locations to our partners.</p>
+            </div>
+            <div class="col-12 col-md-6 my-4 my-md-0 d-flex justify-content-center justify-content-md-end align-items-center pe-5 b-blue">
+                <button class="btn-yellow">Learn More <i class="fa-solid fa-arrow-right"></i></button>
+            </div>
+        </div>
+        <div class="row my-3 mx-3 gap-3 gap-md-0">
+            <div class="col-12 col-md-6 h-300">
+                <div class="second-img-1"></div>
+            </div>
+            <div class="col-12 col-md-6 h-300">
+                <div class="second-img-2"></div>
             </div>
         </div>
 
+        <div class="row mx-3 my-5 p-3 gap-4 gap-md-0">
+            <div class="col-12 col-md-8 order-2 order-md-1">
+                <h1 class="text-white">All-inclusive real estate services to facilitate the easy and confident purchase, sale, and management of your properties</h1>
+            </div>
+            <div class="col-12 col-md-4 order-1 order-md-2 d-flex justify-content-center b-red">
+                <img src="images/about_1_3-1.png" alt="">
+            </div>
+        </div>
+
+        <div class="row mx-3">
+            <div class="col-12 col-md-4 h-300">
+                <div>
+                    <img src="images/service-icon1-1.png" alt="">
+                </div>
+                <h2 class="text-white py-3">Property Valuation</h2>
+                <p class="text-white">All-inclusive real estate services to facilitate the easy and confident purchase, sale, and management of your properties.</p>
+            </div>
+            <div class="col-12 col-md-4 h-300">
+                <div>
+                    <img src="images/service-icon1-2.png" alt="">
+                </div>
+                <h2 class="text-white py-3">Property Management</h2>
+                <p class="text-white">Business consulting involves providing expert advice and services to real estate improve performance services and achieve.</p>
+            </div>
+            <div class="col-12 col-md-4 h-300">
+                <div>
+                    <img src="images/service-icon1-3.png" alt="">
+                </div>
+                <h2 class="text-white py-3">Invest Opportunities</h2>
+                <p class="text-white">Real estate services facilitate the easy and confident purchase, sale, and management of your properties experiencing growth.</p>
+            </div>
+        </div>
     </div>
 
-
-
-
-
-
+    <div class="row third-section mx-3 py-5 b-red">
+        <div class="col-12 col-md-6 d-flex flex-column justify-content-center align-items-start b-blue">
+            <h1 class="text-white">Discover Modern Living At Realar Residence.</h1>
+            <p class="text-white py-3">Residence takes advantage of abundant sunlight by incorporating solar panels into its architecture.</p>
+            <button class="btn-yellow">Explore More <i class="fa-solid fa-arrow-right"></i></button>
+        </div>
+        <div class="col-10 col-md-6 m-auto pt-5 third-img-con b-blue">
+            <div class="third-img"></div>
+        </div> 
+    </div>
 
 
 
