@@ -101,16 +101,20 @@ li, ul{
 }
 
 .home-page{
-    height: 100vh;
+    /* height: 100vh; */
+    width: 100% !important;
     border: 3px solid red;
     border-radius: 30px;
     animation: image-anime 15s linear infinite;
     background-position: center;
-    background-size: cover;
+    background-repeat: no-repeat;
+    background-size: cover !important;
 }
 .home-page-row{
     height: 100%;
+    
 }
+
 
 @keyframes image-anime {
     0% {
@@ -144,37 +148,56 @@ li, ul{
 }
 
 .left{
-    height: 100%;
+    height: 100vh;
     border: 4px solid white;
-    overflow: hidden;
+    /* overflow: hidden; */
 }
 
 .left-1{
     animation: text-anime 15s linear infinite;
     transform: translateY(-100%);
 }
+.left-button-1{
+    animation: button-anime 15s linear infinite;
+    transform: translateY(500%);
+    opacity: 0;
+}
+
 .left-2{
     animation: text-anime 15s linear infinite;
     transform: translateY(-100%);
     animation-delay: 4.5s;
 }
+.left-button-2{
+    animation: button-anime 15s linear infinite;
+    transform: translateY(500%);
+    animation-delay: 4.5s;
+    opacity: 0;
+}
+
 .left-3{
     animation: text-anime 15s linear infinite;
     transform: translateY(-100%);
     animation-delay: 9s;
 }
+.left-button-3{
+    animation: button-anime 15s linear infinite;
+    transform: translateY(500%);
+    animation-delay: 9s;
+    opacity: 0;
+}
 
 @keyframes text-anime {
     0%{
-        transform: translateY(0);
+        transform: translateY(-100%);
         opacity: 0;
     }
     15%{
-        transform: translateY(100%);
+        transform: translateY(10%);
         opacity: 1;
     }
     24%{
-        transform: translateY(100%);
+        transform: translateY(10%);
         opacity: 1;
     }
     28%{
@@ -187,8 +210,31 @@ li, ul{
     }
 }
 
+@keyframes button-anime {
+    0%{
+        transform: translateY(500%);
+        opacity: 0 !important;
+    }
+    15%{
+        transform: translateY(300%);
+        opacity: 1;
+    }
+    24%{
+        transform: translateY(300%);
+        opacity: 1;
+    }
+    28%{
+        transform: translateY(500%);
+        opacity: 0;
+    }
+    100%{
+        transform: translateY(500%);
+        opacity: 0;
+    }
+}
+
 .right{
-    height: 100%;
+    height: 50vh;
     display: flex;
     align-items: center;
     justify-content: center;
