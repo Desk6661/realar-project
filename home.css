@@ -3,6 +3,9 @@
     padding: 0;
     box-sizing: border-box;
 }
+body{
+    width: 100%;
+}
 
 .b-red{
     border: 1px solid red;
@@ -225,6 +228,9 @@ li, ul{
 .h-300{
     height: 300px;
 }
+.h-400{
+    height: 400px;
+}
 
 .first-section-sub{
     width: 100%;
@@ -271,4 +277,25 @@ li, ul{
     background-image: url(images/project_pop1_1.png);
     background-position: center;
     background-size: cover;
+}
+
+.fourth-section{
+    width: 100%;
+    background-color: rgba(28,45,55,255);
+
+}
+
+.Fsection-img-1{
+    background-image: url(images/property-s-1-1-416x360.png);
+    height: 100%;
+    background-size: cover;
+    background-position: center;
+}
+
+.F-numbers{
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    background-color: transparent;
+    border: 1px solid white;
 }
