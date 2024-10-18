@@ -309,6 +309,7 @@ li, ul{
 .third-section{
     height: 130vh;
     background-image: url(images/about_1_1.jpg);
+    background-attachment: fixed;
     background-size: cover;
     /* position: fixed; */
     
@@ -344,4 +345,13 @@ li, ul{
     border-radius: 50%;
     background-color: transparent;
     border: 1px solid white;
+}
+
+.fourth-row{
+    border: 1px solid red;
+    /* border-top: 1px solid rgb(187, 187, 187); */
+}
+
+.F-content{
+    border-left: 1px solid rgb(187, 187, 187);
 }
